@@ -285,14 +285,125 @@
 //
 //     document.getElementById("result").textContent = "Сумма: " + sum;
 // }
-//
-//
+
+////2
+
 // function calculateQuarty() {
-//     let inp1 = document.getElementById('input3').value;
+//     let inp12 = document.getElementById('input3').value;
 //
-//     let quarty = parseFloat(inp1) ** 2
+//     let quarty = parseFloat(inp12) ** 2
 //
 //     document.getElementById("result3").textContent = "Квадрат:" + quarty;
 // }
+
+
+// 4
+
+
+// function calculateQuarty1() {
+//     let inp1 = document.getElementsByClassName('.adc').value;
+//     console.log(inp1)
+//     let quarty = parseFloat(inp1) ** 2
+//
+//     document.getElementById("result4").textContent = "Квадрат:" + quarty;
+// }
+//
+
+// Не понял задания
+
+// Уровень 6.1
+
+//1
+//
+// function Ulfunction(){
+//     let arr = ['ФФФ', 'FAF', 'vfve'];
+//     let ul = document.getElementById('listik1');
+//     for(let i = 0; i < arr.length; i++){
+//         let li = document.createElement('li');
+//         li.textContent = arr[i];
+//         ul.appendChild(li);
+//     }
+// }
+
+
+// 2
+
+// function Ulfunction1(){
+//     let arr = [1,2,3,4,5,6,7,8,9,10];
+//     let ul = document.getElementById('listik2');
+//     for(let i = 0; i < arr.length; i++){
+//         let li = document.createElement('li');
+//         li.textContent = arr[i];
+//         ul.appendChild(li);
+//     }
+// }
+
+
+// 3
+
+// function Ulfunction2(){
+//     let arr = ["!"];
+//     let ul = document.getElementById('listik3');
+//     for(let i = 0; i < arr.length; i++){
+//         let li = document.createElement('li');
+//         li.textContent = arr[i];
+//         ul.appendChild(li);
+//     }
+// }
+
+
+// 4
+
+// let instr = 0
+// function Ulfunction3(){
+//     let ul = document.getElementById('listik4');
+//     for(let i = 0; i < 1; i++){
+//         let li = document.createElement('li');
+//         li.textContent = instr;
+//         ul.appendChild(li);
+//         instr++
+//     }
+// }
+
+
+/// 5
+
+// function Ulfunction4(){
+//     let ul = document.getElementById('listik5');
+//     let liElements = ul.getElementsByTagName('li');
+//
+//     for (let i = 0; i < liElements.length; i++) {
+//         let li = liElements[i];
+//         ul.removeChild(li);
+//     }
+// }
+
+
+//6
+//
+// function Ulfunction5(){
+//     let ul = document.getElementById('listik6');
+//     let liElements = ul.getElementsByTagName('li');
+//     let randomIndex = Math.floor(Math.random() * liElements.length);
+//     ul.removeChild(liElements[randomIndex]);
+// }
+//
+
+
+// уровень 7.1
+
+//1
+
+
+function Ulfunction6(){
+    let ul = document.getElementById('listik7');
+    let liElements = ul.getElementsByTagName('li');
+
+    for (let i = 0; i < liElements.length; i++) {
+        if (l)
+        let li = liElements[i];
+        ul.removeChild(li);
+    }
+}
 
 
